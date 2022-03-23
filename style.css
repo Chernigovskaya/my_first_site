@@ -1,0 +1,445 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(238, 180, 160);
+}
+.top {
+    background-color: rgb(253, 240, 223);
+    min-height: 40vh;
+}
+.container {
+    margin: 0 auto;
+    padding: 28px 84px ;
+}
+.top_box {
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 36px;
+    }
+    .cart {
+    width: 150%;   
+    }
+.top_info {
+    flex-grow: 1;
+    background-image: url(img/top_back.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 32%;
+}
+.top_heading {
+    font-size: 94px;
+    font-weight: 300;
+    line-height: 56px;
+    color: darkslateblue;
+    margin: 28px;
+    text-align: center; 
+    width: 65%;
+}
+.text {
+    width: 65%;
+    font-size: 52px;
+}
+.structure {
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+.heading {
+    font-size: 86px;
+    color: darkslategrey;
+    text-align: center;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+.heading-mini {
+    font-size: 72px;
+    color: midnightblue;
+    opacity: 0.6;
+    text-align: center;
+    margin: 28px;
+}
+.contact-header {
+    background-color: rgb(243, 243, 233);
+}
+.contact_heading {
+    font-size: 84px;
+    text-align: center;
+    color: rgb(50, 50, 110);
+}
+.main {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+.contact_el {
+    font-size: 52px;
+    color: darkslateblue;
+    margin-block-end: 16px;
+}
+.text_contact {
+    font-size: 42px;
+    color: rgb(28, 11, 44);
+}
+.contact_img {
+    width: 70%;
+}
+.contact_info {
+    flex-direction: unset;
+    flex-grow: 1;
+}
+.input-text {
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    margin: 16px 0px;
+    font-size: 36px;
+}
+.form {
+    width: 50%;
+}
+.button-submit {
+    background-color: coral;
+    border-radius: 10px;
+    font-size: 36px;
+    text-align: center;
+    color: azure;
+    text-transform: uppercase;
+    padding: 24px;
+}
+.container_class {
+    padding: 64px 96px;
+}
+.card-parents {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 36px;
+    margin: 18px;
+}
+.card-child {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+}
+.card_link {
+    font-size: 42px;
+    line-height: 30px;
+    color: blueviolet;
+    text-decoration: none; 
+}
+.card {
+    padding: 48px 36px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;  
+    flex-grow: 1;
+    margin-left:  18px;
+    width: 50%;
+}
+.card_img {
+    align-self: center;
+    margin-bottom: 36px;
+    width: 85%;
+}
+.card_persona {
+    padding-left: 36px;
+    padding-top: 56px;
+}
+.img_persona {
+    width: 90%;
+    align-self: center ;
+    margin: 16px;
+}
+.text_persona {
+    font-size: 48px;
+    color: rgb(36, 36, 116);
+    list-style-type: none;
+    letter-spacing: 0.07em;
+    font-style: oblique;
+    padding-bottom: 18px;
+}
+.text_persona span {
+    font-style: normal;
+    color: black;
+    text-decoration-line: underline;
+}
+.footer {
+    background-color: rgb(226, 152, 99);
+    padding-top: 32px;
+    padding-bottom: 14px;
+    margin-top: 32px;
+}
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_li {
+    font-size: 42px;
+    color: rgb(53, 51, 51);
+    flex-grow: 1;
+    flex-basis: 50%;
+    list-style-type: none;
+    display: flex;
+    margin-right: 16px;
+}
+.footer_li:first-child::before{
+    content: 'тел.';
+    display: block;
+    margin-right: 16px;
+}
+.footer_li::before{
+    content: 'почта.';
+    display: block;
+    margin-right: 16px;
+}
+.footer_copy{
+    margin-top: 64px;
+}
+.text_copy {
+    color: rgb(19, 19, 39);
+    font-size: 28px;
+    padding-left:  40px;
+}
+@media (min-width: 2561px) {
+    .text {
+        font-size: 74px;
+    }
+    .top_heading {
+        font-size: 112px;
+    }
+    .heading {
+        font-size: 102px;
+    }
+    .heading-mini {
+        font-size: 102px;
+    }
+    .card_link {
+        font-size: 64px;
+    }
+    .footer_li {
+        font-size: 74px;
+    }
+    .cart {
+        width: 200%;   
+    }
+    .contact_el {
+        font-size: 64px;
+    }
+    .text_contact {
+        font-size: 56px;
+    }
+    .input-text {font-size: 48px;
+    }
+    .text_persona {
+        font-size: 68px;
+    }
+}
+@media (max-width: 1440px) {
+    .container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .text {
+        font-size: 24px;
+    }
+    .top_info{
+        background-size: 30%;
+        padding: 12px;
+        background-position: right 30px
+    }
+    .top_heading {
+        font-size: 42px;
+        margin: 12px;
+    }
+    .header {
+        background-size: 50%;
+        padding: 8px;
+    }
+    .heading {
+        font-size: 36px;   
+    }
+    .heading-mini {
+        font-size: 36px;
+    }
+    .card_link {
+        font-size: 20px;
+    }
+    .structure {
+        padding: 12px;  
+    }
+    .card {
+        padding: 12px;
+        margin-left: 8px;
+    }
+    .card-parents {
+        margin: 0;
+    }
+    .card-child {
+        margin: 0; 
+    }
+       .contact_heading {
+        font-size: 48px;
+    }
+    .contact_el {
+        font-size: 32px;
+    }
+    .text_contact {
+        font-size: 28px;
+        
+    }
+    .text_persona {
+        font-size: 28px;
+        padding-bottom: 8px;
+    }
+    .input-text {
+        font-size: 20px;
+    }
+    .button-submit {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .container_class {
+        padding: 24px;
+        text-align: center;
+    }
+    .footer_info {
+        padding: 6px;
+        display: block;
+    }
+    .footer_li {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+    .footer_copy {
+        margin: 20px 0;
+    }
+    .text_copy {
+        font-size: 16px;
+        padding: 6px;
+    }
+}
+@media (max-width: 768px) {
+     .container {
+        padding: 0;
+    }
+    .top {
+        min-height: 376px;
+    }
+    .top_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+        padding: 0 12px;
+    }
+    .top_heading {
+        width: 100%;
+       font-size: 32px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .text {
+        width: 100%;
+        font-size: 18px;
+    }
+    .structure {
+        padding: 0;
+    }
+    .heading {
+        font-size: 24px;
+    }
+    .header {
+        margin: 0;
+        padding-bottom: 18px;
+    }
+    .heading-mini {
+        font-size: 24px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .form {
+        margin-left: 28px;
+        margin-bottom: 18px;
+    }
+    .card-parents {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .card-child {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .card_link {
+        font-size: 14px;
+    }
+     .contact_info {
+        width: 100%;
+        margin-left: 28px;
+     }   
+    .contact_heading {
+        font-size: 32px;
+    }
+    .contact_el {
+        font-size: 24px;
+    }
+    .text_contact {
+        font-size: 20px;
+        margin: 4px;
+    }
+    .input-text {
+        font-size: 18px;
+    }
+    .button-submit {
+        font-size: 12px;
+        padding: 8px;
+    }
+    .container_class {
+        padding: 18px;
+    }
+    .contact_img {
+        width:80%;
+    }
+    .container_class {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .text_persona {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+    .img_persona {
+        margin-top: 0;
+    }
+    .footer {
+        padding-top: 2px;
+        margin-top: 18px;
+    }
+   .footer_info {
+       display: block;
+       padding: 6px;
+   }
+   .footer_li {
+       font-size: 16px;
+       margin-bottom: 16px;
+   }
+   .footer_copy {
+       margin: 18px 0;
+   }
+   .text_copy {
+       font-size: 12px;
+       padding: 6px; 
+   }
+}
